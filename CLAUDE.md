@@ -28,3 +28,10 @@ A dona do projeto é a Raquel, advogada, não programadora: explique em portugu�
 - Depois de alterar: rode os testes/lint do projeto e informe o resultado real, inclusive falhas.
 - Nunca diga "pronto" ou "funcionando" sem ter verificado.
 - No final: o que mudou, como testar, o que não foi verificado e como desfazer.
+
+## Trabalho em conjunto com o Kimi (e outros agentes)
+
+- Este repositório é desenvolvido com o Claude e com o Kimi. `CLAUDE.md` (lido pelo Claude) e `AGENTS.md` (lido pelo Kimi e outros agentes) têm as mesmas regras: ao alterar um, altere o outro igual.
+- Antes de começar: `git pull` e leia os commits recentes. Não desfaça, reescreva nem "corrija" alterações feitas pelo Kimi, pela Raquel ou por outra pessoa sem pedido.
+- Commits com mensagem clara dizendo o que mudou e por quê, para o outro agente continuar de onde parou.
+- Ao terminar uma funcionalidade, atualize a documentação do projeto (README, docs, CHANGELOG quando existir).
